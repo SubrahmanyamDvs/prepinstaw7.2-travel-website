@@ -1,0 +1,166 @@
+/* App.css */
+
+/* General Styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+  margin-bottom: 40px;
+}
+
+/* App.css */
+
+/* App.css */
+/* App.css */
+
+.logo {
+  color: #007bff; /* Blue color for logo */
+  text-align: center;
+  margin-bottom: 10px; /* Decrease margin bottom */
+  font-size: 20px; /* Decrease font size */
+  font-weight: bold;
+}
+
+.hero-content h2,
+.hero-content p {
+  color: #e5eae6; /* Black color for heading and paragraph text */
+}
+
+
+nav {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333; /* Default link color */
+  margin: 0 20px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #f51414; /* Hover link color */
+}
+
+/* Hero Section Styles */
+.hero-section {
+  background-color: #e9ebed;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-image {
+  position: relative;
+  height: 200px;
+  background-image: url('C:\FSD\JS\React\react\travel-website\public\logo.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.bold-paragraph {
+  font-weight: bold;
+}
+/* App.css */
+
+.destination-image {
+  width: 250px; /* Increase the width of the images */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensure the image covers the container */
+}
+
+/* Package Section Styles */
+.packages-section {
+  padding: 80px 0;
+}
+
+.package-grid {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.package-card {
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.package-card:hover {
+  transform: translateY(-5px);
+}
+
+.package-img {
+  width: 100%;
+  height: auto;
+}
+
+.package-info {
+  padding: 20px;
+}
+
+.package-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.package-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #d30711;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Footer Styles */
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px 0;
+  background-color: #f8f9fa;
+}
+
+.footer p {
+  font-size: 14px;
+}
+
